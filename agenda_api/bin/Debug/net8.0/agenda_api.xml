@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>agenda_api</name>
+    </assembly>
+    <members>
+        <member name="M:agenda_api.Controllers.AgendaController.GetContacts(System.Int32,System.Int32)">
+            <summary>
+            Lista todos os contatos da Agenda, seguindo parâmetros de paginação
+            </summary>
+        </member>
+        <member name="M:agenda_api.Controllers.AgendaController.GetContactById(System.Int32)">
+            <summary>
+            Busca um contato usando o campo Id como parâmetro
+            </summary>
+        </member>
+        <member name="M:agenda_api.Controllers.AgendaController.AddContact(agenda_api.Models.Contact)">
+            <summary>
+            Adiciona um contato
+            </summary>
+        </member>
+        <member name="M:agenda_api.Controllers.AgendaController.UpdateContact(System.Int32,agenda_api.Models.Contact)">
+            <summary>
+            Atualiza um contato usando o campo Id como parâmetro
+            </summary>
+        </member>
+        <member name="M:agenda_api.Controllers.AgendaController.DeleteContact(System.Int32)">
+            <summary>
+            Exclui um contato usando o campo Id como parâmetro
+            </summary>
+        </member>
+        <member name="T:agenda_api.Migrations.CreateContactTableMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:agenda_api.Migrations.CreateContactTableMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:agenda_api.Migrations.CreateContactTableMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:agenda_api.Migrations.CreateContactTableMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
